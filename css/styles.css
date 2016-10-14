@@ -1,0 +1,170 @@
+
+/*** page wide styles ***/
+html, body {
+	background-color: rgba(148, 189, 209, 0.5);
+	/*background-color: rgb(148, 189, 209);*/
+	margin: 0;
+	padding:0;
+	font-family: "Arial", sans-serif;
+}
+
+header, footer {
+	background-color: #00334d;
+	width: 100%;
+	height: 100px;
+}
+
+footer {
+	/*position: absolute;*/
+	bottom: 0px;
+}
+
+#content {
+	width: 100%;
+	height: 800px;
+}
+
+nav {
+	float: right;
+	display: inline;
+	margin-top: 65px;
+ }
+
+.center {
+	width: 1000px;
+	margin: auto;
+	min-width: 400px
+}
+
+#header-content {
+	height: 100px;
+}
+
+header h1 {
+	font-family: 'Comfortaa', cursive;
+	margin-top: 45px;
+	color: #b3cccc;
+	display: inline-block;
+	
+}
+
+nav a:link, nav a:visited, footer a:link, footer a:visited{
+	text-decoration: none;
+	color: #b3cccc;
+	margin-right: 5px;
+}
+
+/*nav a:hover, footer a:hover {
+	color: #e0ebeb;
+} disabled for JQuery demo */
+
+footer a:hover {
+	color: #e0ebeb;
+}
+
+footer h3 {
+	color: #b3cccc;
+	padding-top: 10px;
+}
+
+/***** home page ******/
+
+.home-images-row {
+	margin: 30px auto;
+	width: 80%;
+}
+
+img.home-images {
+	border-radius: 25px;
+	box-shadow: 10px 10px 25px grey;
+	border: 10px solid #fff;
+	-webkit-filter: opacity(75%);
+	filter: opacity(75%);
+	width: 30%;
+
+}
+
+/***** about page *****/
+
+.about h2, .about p, .about ol {
+	color: #00334d;	
+}
+
+#about-main a:link, #about-main a:visited {
+	text-decoration: none;
+	color: #00334d;
+}
+
+#about-main, #about-sub {
+	width: 100%;
+}
+
+/***** contact page ****/
+#contact-section h2 {
+	color: #00334d;
+}
+
+input[type=text], textarea {
+	border: 1px solid #00334d;
+	margin: 5px;
+	width: 50%;
+	padding: 10px;
+}
+
+textarea {
+	height: 60px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #00334d;
+  font-size: 20px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #00334d;
+  font-size: 20px;
+
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #00334d;
+  font-size: 20px;
+
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #00334d;
+  font-size: 20px;
+
+}
+
+input[type=submit] {
+	background-color:#00334d;
+	border-radius: 5px;
+	border: none;
+	color: #fff;
+	width: 100px;
+	height: 30px;
+	margin-left: 5px;
+}
+
+
+input[type=submit]:hover {
+	background-color:#fff;
+	color: #00334d;
+	border: 1px solid #00334d;
+
+}
+
+button#funTimes {
+	background-color:#00334d;
+	border-radius: 5px;
+	border: none;
+	color: #fff;
+	width: 100px;
+	height: 40px;
+	margin: 10px 0px 0px 5px;
+}
+
+#funTimesResult {
+	width: 240px;
+	margin: 10px auto;
+	text-align: center;
+}
